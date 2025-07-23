@@ -15,26 +15,49 @@
   margin-bottom: 2rem;
 }
 .welcome-text {
-  flex: 1;              /* Take up remaining space */
-  display: flex;        /* Use flex to center vertically */
-  align-items: center;  /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  text-align: center;   /* Center text inside */
+  flex: 1;           
+  display: flex;  
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;   
+  background: #1a1515;          
+  padding: 2rem 1.5rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15); /* Stronger shadow */
+  border: 1.5px solid #000000;  /* Slightly darker border */
+  margin-left: 2rem;             /* Space from the logo */
+  margin-top: 50px;
 }
 
 /*Cores2Drill Logo Styling*/
 .cores2drill-logo {
-  width: 150px;
+  width: 180px;
   height: auto;
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.978);
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 3px solid rgb(0, 0, 0);
-  margin-top: 45px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+/*Cores2Drill Vans Styling*/
+.cores2drill-vans {
+  width: 100%;
+  max-width: 400px;         /* Adjust max width as needed */
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  margin: 1rem auto 0 auto; /* Center image and add top margin */
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+  margin-top: 60px;
+
 }
 
-/*Website Header with Contact Details Styling*/
+/*Website Header with Contact Details Styling*/ 
 .header {
   background-color: #007e1b;
   color: white;
@@ -47,5 +70,21 @@
   top: 0;
   width: 100%;
   z-index: 999;
-  border-bottom: 3px solid #000
+  border-bottom: 3px solid #000;
+}
+
+.header-left {
+  flex: 1;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 20px;
+}
+
+.header-center {
+  flex: 2;
+  text-align: center;
+}
+
+.header-right {
+  flex: 1;
 }
