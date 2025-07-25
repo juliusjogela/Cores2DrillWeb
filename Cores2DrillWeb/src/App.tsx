@@ -10,6 +10,7 @@ function App() {
       
       {/* Hero/Home Section */}
       <section id="home" className="hero-section">
+      <img src={logo} alt="Cores2Drill Logo" className="hero-logo-corner"/>
         <div className="hero-content">
           <div className="hero-text">
             <h1>Cores2Drill</h1>

@@ -49,6 +49,7 @@ function Navbar() {
       <div className="nav-container">
         <div className="nav-logo">
           <span>Cores2Drill</span>
+          <span className="contact-text">📞 +353 89 232 3315 | ✉️ cores2drill@gmail.com</span>
         </div>
         <ul className="nav-menu">
           {navItems.map((item) => (
