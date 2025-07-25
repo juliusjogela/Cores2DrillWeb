@@ -1,6 +1,10 @@
 import logo from "./assets/logo.png"
 import './App.css'
 import vans from "./assets/cores2drill.png"
+import proj1 from "./assets/proj1.png"
+import proj2 from "./assets/proj2.png"
+import proj3 from "./assets/proj3.png"
+import proj4 from "./assets/proj4.png"
 import Navbar from "./components/navbar";
 
 function App() {
@@ -30,31 +34,19 @@ function App() {
       <section id="gallery" className="gallery-section">
         <div className="section-content">
           <h2>Our Work</h2>
-          <p>Take a look at some of our recent projects and drilling operations across Ireland.</p>
+          <p>Scroll down to take a look at some of our recent projects and drilling operations across Ireland.</p>
           <div className="gallery-grid">
             <div className="gallery-item">
-              <div className="gallery-placeholder">
-                <h4>Residential Project</h4>
-                <p>Foundation drilling</p>
-              </div>
+              <img src={proj1} alt="Drilling Project 1" className="gallery-image" />
             </div>
             <div className="gallery-item">
-              <div className="gallery-placeholder">
-                <h4>Commercial Site</h4>
-                <p>Core sampling</p>
-              </div>
+              <img src={proj2} alt="Drilling Project 2" className="gallery-image" />
             </div>
             <div className="gallery-item">
-              <div className="gallery-placeholder">
-                <h4>Engineering Survey</h4>
-                <p>Geological testing</p>
-              </div>
+              <img src={proj3} alt="Drilling Project 3" className="gallery-image" />
             </div>
             <div className="gallery-item">
-              <div className="gallery-placeholder">
-                <h4>Infrastructure</h4>
-                <p>Structural analysis</p>
-              </div>
+              <img src={proj4} alt="Drilling Project 4" className="gallery-image" />
             </div>
           </div>
         </div>
@@ -75,11 +67,6 @@ function App() {
               <div className="contact-icon">✉️</div>
               <h3>Email</h3>
               <p>cores2drill@gmail.com</p>
-            </div>
-            <div className="contact-item">
-              <div className="contact-icon">📍</div>
-              <h3>Service Area</h3>
-              <p>All of Ireland</p>
             </div>
           </div>
         </div>
