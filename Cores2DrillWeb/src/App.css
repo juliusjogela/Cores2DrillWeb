@@ -376,10 +376,14 @@ body {
   
   .hero-subtitle {
     font-size: 1.2rem;
+    white-space: normal;
+    padding: 0.75rem 1rem;
+    letter-spacing: 1px;
   }
   
   .hero-description {
     font-size: 1.1rem;
+    padding: 1rem;
   }
   
   .company-logo {
@@ -422,6 +426,14 @@ body {
   .contact-section {
     padding: 100px 1rem 2rem;
   }
+  
+  .hero-logo-corner {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -431,6 +443,18 @@ body {
   
   .hero-text h1 {
     font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    white-space: normal;
+    padding: 0.5rem 0.75rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    padding: 0.75rem;
   }
   
   .section-content h2 {
@@ -444,6 +468,14 @@ body {
   
   .contact-item {
     padding: 2rem 1.5rem;
+  }
+  
+  .hero-logo-corner {
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
   }
 }
 
